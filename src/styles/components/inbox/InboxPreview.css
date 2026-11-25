@@ -1,0 +1,9 @@
+.header-preview-list { list-style: none; margin: 0; padding: 0; max-height: min(42vh, 320px); overflow-y: auto; }
+
+.header-preview-list li { padding-block: 7px; border-top: 1px solid var(--line); overflow-wrap: anywhere; }
+
+.header-preview-list .badge { margin-inline-start: 6px; }
+
+.header-preview-list time, .header-preview-list p { display: block; color: var(--muted); font-size: .82rem; }
+
+.header-preview-list p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

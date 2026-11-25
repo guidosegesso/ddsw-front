@@ -1,0 +1,5 @@
+.filters { display: grid; grid-template-columns: 42px repeat(3, minmax(0, 1fr)); align-items: end; gap: 12px; padding: 15px; margin-bottom: 17px; }
+
+@media (max-width: 650px) {
+  .filters, .project-grid { grid-template-columns: 1fr; }
+}

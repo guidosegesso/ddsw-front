@@ -1,0 +1,19 @@
+.role-option small { font-weight: 400; color: var(--muted); }
+
+.role-option input { margin: 0; width: 18px; height: 18px; flex: none; accent-color: var(--primary); }
+
+.role-picker { padding: 0; border: 0; margin: 0; }
+
+.role-picker legend { font-weight: 700; margin-bottom: 7px; }
+
+.role-picker > div { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+.role-option { padding: 8px; border: 1px solid #75869c; border-radius: 10px; display: flex; align-items: center; gap: 8px; cursor: pointer; }
+
+.role-option:has(:checked) { background: #eaf1ff; border-color: var(--primary); }
+
+.role-option small { display: block; }
+
+@media (max-width: 400px) {
+  .role-picker > div { grid-template-columns: 1fr; }
+}

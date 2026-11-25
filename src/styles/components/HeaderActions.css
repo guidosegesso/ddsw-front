@@ -1,0 +1,21 @@
+.header-actions { position: relative; display: flex; gap: 6px; }
+
+.header-actions .header-action > button { position: relative; width: 44px; padding: 0; }
+
+.unread-count { position: absolute; inset: -6px -5px auto auto; display: grid; place-items: center; min-width: 20px; height: 20px; padding-inline: 4px; border: 2px solid var(--surface); border-radius: 999px; background: var(--primary); color: white; font-size: .68rem; line-height: 1; }
+
+.header-action > button[aria-expanded="true"] { background: #eaf1ff; color: var(--primary); }
+
+.header-tooltip { display: none; position: absolute; z-index: 4; top: calc(100% + 5px); right: 0; padding: 4px 8px; border-radius: 6px; background: var(--navy); color: #fff; font-size: .78rem; white-space: nowrap; }
+
+.header-action > button[aria-expanded="false"]:is(:hover, :focus-visible) + .header-tooltip { display: block; }
+
+.header-popover { position: absolute; z-index: 5; top: calc(100% + 8px); right: 0; width: min(340px, calc(100vw - 28px)); padding: 14px; }
+
+.header-popover:not([hidden]) { display: grid; gap: 10px; }
+
+.header-popover h2 { font-size: 1.12rem; }
+
+.profile-popover { width: 160px; }
+
+.profile-popover .button { justify-content: start; }

@@ -1,0 +1,13 @@
+.project-card { display: flex; flex-direction: column; gap: 10px; }
+
+.project-card h3 a { color: var(--ink); text-decoration: none; }
+
+.project-card h3 a:hover { text-decoration: underline; }
+
+.card-description { color: var(--muted); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+
+.card-footer { border-top: 1px solid var(--line); padding-top: 10px; margin-top: auto; color: var(--muted); font-size: .82rem; display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; }
+
+.card-footer a { display: inline-flex; gap: 5px; align-items: center; min-height: 36px; font-weight: 700; text-decoration: none; }
+
+.card-footer a:hover { text-decoration: underline; }

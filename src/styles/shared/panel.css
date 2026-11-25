@@ -1,0 +1,5 @@
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 23px; min-width: 0; }
+
+@media (max-width: 600px) {
+  .panel { padding: 16px; }
+}

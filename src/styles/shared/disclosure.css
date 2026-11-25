@@ -1,0 +1,11 @@
+summary { cursor: pointer; color: var(--primary); font-weight: 700; padding-block: 7px; min-height: 38px; }
+
+summary svg { vertical-align: middle; }
+
+.subsection { display: grid; gap: 12px; padding-top: 10px; }
+
+.project-control summary::-webkit-details-marker { display: none; }
+
+.project-control[open] > summary { background: #eaf1ff; color: var(--primary); }
+
+.project-control .subsection > .danger { justify-self: start; }

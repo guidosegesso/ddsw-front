@@ -1,0 +1,3 @@
+.site-dialog { width: min(540px, calc(100% - 28px)); max-height: calc(100% - 28px); overflow: auto; color: var(--ink); }
+
+.site-dialog::backdrop { background: #10254799; }

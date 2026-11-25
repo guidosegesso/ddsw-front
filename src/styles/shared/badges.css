@@ -1,0 +1,7 @@
+.tags li, .badge { display: inline-flex; align-items: center; background: #eef3fb; color: #30476a; padding: 4px 9px; border-radius: 8px; font-size: .79rem; font-weight: 700; overflow-wrap: anywhere; }
+
+.badge { border-radius: 999px; }
+
+.badge.pending { align-self: flex-start; gap: 5px; background: #fff1cc; color: #704600; }
+
+.badge.green { color: #155344; background: #dff5eb; }

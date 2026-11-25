@@ -1,0 +1,5 @@
+.item-list { margin: 0; }
+
+.item-list { list-style: none; padding: 0; }
+
+.item-list li { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }

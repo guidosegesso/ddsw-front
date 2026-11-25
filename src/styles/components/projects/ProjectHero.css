@@ -1,0 +1,45 @@
+.hero { isolation: isolate; position: relative; overflow: hidden; border-radius: 23px; background: radial-gradient(ellipse at 85% 25%, #244d80 0%, transparent 52%), var(--navy); color: white; padding: clamp(28px, 5vw, 62px); margin-bottom: 38px; }
+
+.hero-content { position: relative; z-index: 1; max-width: 660px; }
+
+.hero-label { color: #bde9df; display: inline-flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 700; margin-bottom: 19px; }
+
+.hero h1 { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 790; line-height: 1.02; letter-spacing: -.072em; }
+
+.hero h1 em { color: var(--teal); font-style: normal; }
+
+.hero p { max-width: 430px; margin: 20px 0 24px; color: #dbe6f6; font-size: 1.06rem; }
+
+.hero-button { color: #102f52; background: #ecfff9; }
+
+.hero-button:hover { background: #c3f6e7; }
+
+.hero-art { position: absolute; width: 37%; min-width: 305px; inset: 0 0 0 auto; display: grid; place-items: center; }
+
+.art-grid { position: absolute; inset: 13% 5%; background-image: linear-gradient(#a6cbe324 1px, transparent 1px), linear-gradient(90deg, #a6cbe324 1px, transparent 1px); background-size: 24px 24px; mask-image: radial-gradient(ellipse, black, transparent 75%); }
+
+.art-window { position: relative; width: 64%; aspect-ratio: 1.36; display: grid; place-items: center; background: #112949; box-shadow: 17px 21px 0 #0a1e39, 0 20px 45px #0612269c; border-radius: 18px; border: 1px solid #7498ba; transform: rotate(-10deg); }
+
+.art-window > svg { width: 39%; height: 54%; color: #9aebd2; margin-top: 14%; stroke-width: 1.4; }
+
+.art-toolbar { display: flex; gap: 5px; position: absolute; top: 0; width: 100%; padding: 12px; border-bottom: 1px solid #526e94; }
+
+.art-toolbar i { width: 6px; height: 6px; background: #a3bdd6; border-radius: 50%; }
+
+.art-plus, .art-spark { position: absolute; font-style: normal; color: #9aebd2; font-size: 36px; line-height: 1; }
+
+.art-plus { bottom: 17%; left: 11%; }
+
+.art-spark { top: 18%; right: 12%; }
+
+@media (max-width: 900px) {
+  .hero-art { opacity: .5; }
+}
+
+@media (max-width: 650px) {
+  .hero { margin-bottom: 26px; }
+}
+
+@media (max-width: 650px) {
+  .hero-art { display: none; }
+}

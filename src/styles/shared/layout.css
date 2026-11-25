@@ -1,0 +1,17 @@
+.brand span, .account-mark, .project-icon { display: grid; place-items: center; border-radius: 11px; width: 39px; height: 39px; }
+
+.nav-links, .account-links, .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; }
+
+.divider { border-top: 1px solid var(--line); padding-top: 15px; }
+
+.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+
+.card-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; }
+
+.project-icon, .account-mark { color: var(--primary); background: #ecf2ff; }
+
+.organization { color: #334d73; font-size: .9rem; font-weight: 700; }
+
+@media (max-width: 900px) {
+  .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

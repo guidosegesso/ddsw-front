@@ -1,0 +1,15 @@
+.button { display: inline-flex; justify-content: center; align-items: center; gap: 8px; min-height: 44px; border-radius: 10px; padding: 9px 15px; border: 1px solid transparent; font-size: .9rem; font-weight: 700; text-decoration: none; text-align: center; }
+
+.primary { background: var(--primary); color: white; }
+
+.primary:hover:not(:disabled) { background: var(--primary-hover); }
+
+.secondary { background: var(--surface); color: var(--ink); border-color: #75869c; }
+
+.secondary:hover:not(:disabled) { background: #edf3fc; }
+
+.danger { background: #fff1ef; color: #9d231b; border-color: #ecc4be; }
+
+.danger:hover:not(:disabled) { background: #fee1dd; }
+
+.text-link, .back-link { display: inline-flex; align-items: center; gap: 7px; width: fit-content; font-weight: 700; text-underline-offset: .2em; min-height: 44px; }

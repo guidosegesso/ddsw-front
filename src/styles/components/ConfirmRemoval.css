@@ -1,0 +1,5 @@
+.confirm-dialog { width: min(460px, calc(100% - 28px)); }
+
+.confirm-dialog h2 { font-size: 1.4rem; }
+
+.confirm-actions { justify-content: flex-end; }

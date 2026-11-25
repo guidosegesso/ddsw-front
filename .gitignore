@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+test-results/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/

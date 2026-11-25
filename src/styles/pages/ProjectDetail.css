@@ -1,0 +1,9 @@
+.project-detail { max-width: 960px; margin-inline: auto; gap: 12px; }
+
+.detail-head { display: grid; justify-items: start; gap: 12px; }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 7px; border-bottom: 1px solid var(--line); }
+
+.tabs a { color: var(--muted); display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; text-decoration: none; font-weight: 700; border-bottom: 3px solid transparent; }
+
+.tabs a[aria-current] { color: var(--primary); border-color: var(--primary); }

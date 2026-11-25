@@ -1,0 +1,7 @@
+.people-grid { align-items: start; }
+
+.people-filters { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin: 0; }
+
+@media (max-width: 650px) {
+  .people-filters { grid-template-columns: 1fr; }
+}

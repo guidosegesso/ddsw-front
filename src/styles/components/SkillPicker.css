@@ -1,0 +1,5 @@
+.skill-picker { border: 1px solid var(--line); border-radius: 9px; padding: 4px 12px 10px; margin: 0; }
+
+.skill-picker legend { font-weight: 650; padding-inline: 5px; }
+
+.skill-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); max-height: 240px; overflow: auto; gap: 0 8px; padding: 3px; }

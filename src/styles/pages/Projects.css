@@ -1,0 +1,9 @@
+.section-heading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+
+.section-heading p { margin-top: 7px; }
+
+.filter-icon { width: 42px; height: 44px; display: grid; place-items: center; background: #eaf1ff; color: var(--primary); border-radius: 9px; }
+
+@media (max-width: 650px) {
+  .filter-icon { display: none; }
+}

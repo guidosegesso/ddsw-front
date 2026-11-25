@@ -1,0 +1,9 @@
+.participant-card { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px; }
+
+.participant-identity { display: flex; align-items: center; gap: 8px; min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+
+.participant-identity .project-icon { width: 32px; height: 32px; flex-shrink: 0; }
+
+.participant-identity .text-link { min-height: 36px; }
+
+.participant-remove { min-height: 36px; padding: 5px 9px; font-size: .8rem; margin-top: auto; }

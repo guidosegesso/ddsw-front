@@ -1,0 +1,25 @@
+.field { display: grid; gap: 6px; min-width: 0; font-weight: 650; font-size: .91rem; }
+
+.field small { font-weight: 400; color: var(--muted); }
+
+.field input, .field select, .field textarea { width: 100%; color: var(--ink); background: #fff; border: 1px solid #75869c; border-radius: 9px; min-height: 44px; padding: 9px 11px; }
+
+.field .field-error { color: #8a201a; }
+
+.field [aria-invalid="true"] { border-color: #a32d22; }
+
+.input-with-action { position: relative; }
+
+.input-with-action input { padding-inline-end: 54px; }
+
+.input-action { position: absolute; inset: 1px 1px 1px auto; display: grid; place-items: center; width: 44px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); }
+
+.input-action:hover:not(:disabled) { background: #edf3fc; color: var(--primary); }
+
+.input-action:focus-visible { outline-offset: -3px; }
+
+.field input[readonly] { background: #f0f3f8; }
+
+.field textarea { min-height: 95px; resize: vertical; }
+
+.field select { text-overflow: ellipsis; }

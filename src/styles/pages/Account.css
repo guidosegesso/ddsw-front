@@ -1,0 +1,9 @@
+.account { max-width: 570px; margin-inline: auto; padding: clamp(18px, 4vw, 35px); }
+
+.account h1 { margin: 14px 0 5px; font-size: clamp(1.65rem, 5vw, 2.55rem); }
+
+.account form { margin-top: 20px; }
+
+.account .check { padding-block: 3px; }
+
+.account-footer { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 14px; }
